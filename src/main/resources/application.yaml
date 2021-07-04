@@ -1,0 +1,11 @@
+spring:
+  main:
+    web-application-type: none
+  application:
+    name: armeria-example
+
+armeria:
+  ports:
+    - port: 8080
+      protocols:
+        - http
